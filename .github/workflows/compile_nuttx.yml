@@ -75,8 +75,8 @@ jobs:
           ]
     steps:
     - uses: actions/checkout@v1
-      with:
-        token: ${{secrets.ACCESS_TOKEN}}
+  
+
 
     - name: Prepare ccache timestamp
       id: ccache_cache_timestamp
